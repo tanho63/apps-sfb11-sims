@@ -1,0 +1,38 @@
+Package: SFB11 Similarity Scores
+Title: SFB 11 Similarity Scores
+Version: 0.0.1
+Authors@R: 
+    person(given = "Tan",
+           family = "Ho",
+           role = c("aut", "cre"),
+           email = "tan@tanho.ca")
+Description: Finds most similar teams to a given user's team by both strategy and player composition.
+License: GPL (>= 3)
+Imports: 
+    arrow,
+    bs4Dash,
+    dplyr,
+    tidyr,
+    stringr,
+    purrr,
+    readr,
+    lubridate,
+    glue,
+    janitor,
+    joker,
+    magrittr,
+    pkgload,
+    plotly,
+    reactable,
+    sever,
+    shiny,
+    shinyjs,
+    shinyWidgets,
+    waiter,
+    writexl
+Remotes:
+    tanho63/joker
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
